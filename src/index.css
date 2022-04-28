@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container-add-task {
+  border-style: solid;
+  border-color: grey;
+  padding: 5% 10% 5% 10%;
+}
+
+.container-list-task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-delete-task {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15%;
+}
+
+.btn-primary-add-task {
+  width: 100%;
+}
+
+.btn-primary-list-task {
+  width: 30%;
+}
+
+.btn-danger-delete-task {
+  width: 45%;
+}
+
+.app_title {
+  text-align: center;
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-color: grey;
+  justify-content: space-between;
+  margin-bottom: 1%;
+}
+
+.task-container-editable {
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-color: black;
+  justify-content: space-between;
+  margin-bottom: 1%;
+}
+
+.task-container-text {
+  width: 85%;
+  line-height: 2;
+  display: flex;
+  align-items: center;
+}
+
+.task-container-icon {
+  padding-left: 15%;
+}
+
+.task-container-icons {
+  width: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.app_header {
+  background-color: #f8f9fa;
+}
+.app_body {
+  /* height: 90%;
+  display: flex;
+  flex-direction: column; */
+  margin: 0 10% 1% 10%;
+}
+
+/* .app_footer {
+  position: sticky;
+  flex-shrink: 0;
+  bottom: 0;
+} */
+
+.completed {
+  text-decoration: line-through;
+}
